@@ -13,8 +13,8 @@ int func(int start, int end, vector<int> &donations) {
 class BadNeighbors {
 	public:
 	int maxDonations(vector <int> donations) {
-		int t1 = func(0, donations.size()-1, donations);
-		int t2 = func(1, donations.size(), donations);
-		return max(t1, t2);
+		int x = func(0, donations.size()-1, donations);
+		int y = func(1, donations.size(), donations);
+		return max(x, y);
 	}
 };
