@@ -24,7 +24,7 @@ class AvoidRoads {
         set<pair<pair<int, int>, pair<int, int>>> s;
         for (int i = 0; i < bad.size(); i++) {
         	tokenize(bad[i]);
-            s.insert({{v[0], v[1]}, {v[2], v[3]}});
+            	s.insert({{v[0], v[1]}, {v[2], v[3]}});
 	    	s.insert({{v[2], v[3]}, {v[0], v[1]}});
         }
         dp[0][0] = 1;
