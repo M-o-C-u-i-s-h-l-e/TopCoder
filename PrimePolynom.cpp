@@ -2,7 +2,7 @@
 using namespace std;
 
 class PrimePolynom {
-    public:
+	public:
 	int reveal(int A, int B, int C) {
         for (int i = 0; i <= 10000; i++) {
             long long n = A * i * i + B * i + C;
