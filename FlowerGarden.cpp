@@ -36,6 +36,7 @@ class FlowerGarden {
 // O(n ^ 2)
 #include <bits/stdc++.h>
 using namespace std;
+#define endl "\n"
 
 int n, arr[50][50];
 vector<int> ans;
