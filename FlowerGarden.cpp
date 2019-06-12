@@ -1,6 +1,7 @@
 // O(n ^ 3)
 #include <bits/stdc++.h>
 using namespace std;
+#define endl "\n"
 
 class FlowerGarden {
 	public:
